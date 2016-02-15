@@ -1,0 +1,498 @@
+
+/* global */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', helvetica, sans-serif;
+  color: rgba(17, 52, 79, 1);
+}
+
+
+
+
+/* header */
+
+
+
+.wrapper-head {
+
+  height: 523px;
+  background:
+  linear-gradient(
+      rgba(28, 80, 135, 0.8),
+      rgba(28, 80, 135, 0.8)
+      ),
+      url("http://locosurfing.com/wp-content/uploads/2014/09/me-backhand-nice-background.jpg") center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+nav {
+  max-width: 1018px;
+  margin: 0 auto;
+  padding-right: 02.7504912%;
+
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navigate {
+  float: left;
+  margin-top: 6px;
+  margin-left: 14px;
+}
+
+.navigate h2 {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 0 2px;
+  letter-spacing: .2px;
+  position: relative;
+  top: -1px;
+}
+
+.navigate h2 > span {
+  position: relative;
+  left: -2px;
+  letter-spacing: 0;
+}
+
+.navigate h2 > span > span {
+  letter-spacing: -0.7px;
+}
+
+
+.navigate h2, img {
+  vertical-align: middle;
+}
+
+.header-links {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+}
+
+.header-links li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 11px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.header-links li:first-child {
+  position: relative;
+  top: -1px;
+}
+
+.header-links li span {
+  display: inline-block;
+  transform: scaleY(1.5);
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+.header-links li span,
+.header-links li img {
+  vertical-align: middle;
+}
+
+.header-links li img {
+  margin-left: 4px;
+  position: relative;
+  top: 1px;
+  right: 3px;
+}
+
+.about:hover {
+  color: white;
+}
+
+.search:hover {
+  color: white;
+
+}
+
+
+
+
+.header-title {
+  text-align: center;
+}
+
+.title {
+  color: white;
+  text-shadow: 0 2px 4px rgba(17, 52, 79, 1);
+  text-transform: uppercase;
+  margin: 150px 0 0 0;
+  letter-spacing: 1px;
+  font-size: 104px;
+  line-height: 104px;
+  font-weight: 400;
+  letter-spacing: -3px;
+}
+
+
+
+.sub-heading {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(7, 53, 81);
+  font-weight: 400;
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 1px;
+
+
+
+}
+
+
+
+
+/* main column */
+.main-container {
+  max-width: 1018px;
+  padding-top: 26px;
+  padding-left: 0;
+  margin-left: 164px;
+}
+.main {
+  width: 60%;
+
+  display: inline-block;
+
+}
+.main h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(7, 53, 81);
+  font-size: 56px;
+  letter-spacing: -3px;
+  font-weight: bold;
+  margin-top: 0;
+
+
+}
+.main > span  {
+  color: rgb(40, 127, 187);
+}
+
+.small-heading {
+  display: inline-block;
+}
+.small-heading h2 {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  display: inline-block;
+  background: linear-gradient(
+      rgba(28, 80, 135, 0.7),
+      rgba(28, 80, 135, 0.7)
+      ), url("images/people22x22.jpg");
+  border-radius: 100%;
+}
+.small-heading .marie {
+  color: rgb(14, 110, 179);
+  padding-left: 5px;
+  padding-right: 15px;
+  position: relative;
+  top: -3px;
+
+}
+.small-heading .on {
+  color: rgb(163, 178, 191);
+  font-size: small;
+  position: relative;
+  top: -3px;
+  padding-right: 3px;
+}
+.small-heading a {
+  list-style: none;
+  color: rgb(163, 178, 191);
+  position:relative;
+  top: -3px;
+  font-size: small;
+}
+
+.article-footer span {
+  background-color: rgb(163, 178, 191);
+  color: rgb(250, 251, 251);
+  padding-right: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 11px;
+
+
+
+}
+.article-footer i{
+  background-color: rgb(93, 104, 111);
+  color: white;
+  list-style: none;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 8px;
+  margin-left: 10px;
+}
+.article-footer a {
+  text-decoration: none;
+}
+#sharethispost {
+  background-color: rgb(15, 109, 179);
+}
+#external-link {
+  background-color: rgb(7, 53, 81);
+}
+
+}
+.main a {
+  color: rgb(163, 178, 191);
+
+}
+
+.main p {
+  color: rgb(91, 101, 108);
+}
+
+.main-blockquote {
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  letter-spacing: 1px;
+  color: rgb(14, 110, 179);
+  border-left: 2px solid #ddd;
+    padding-left: 17px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+
+
+}
+
+
+/* side-bar */
+
+.sidebar {
+  margin-left: 81px;
+  max-width: 27%;
+  display: inline-block;
+  color: rgb(163, 178, 191);
+  width: 40%;
+  margin-bottom: 175px;
+
+
+}
+.sidebar > h3 {
+  color: rgb(40, 127, 187);
+
+}
+.sidebar h2 {
+  width: 84px;
+  height: 84px;
+  background: linear-gradient(
+      rgba(28, 80, 135, 0.8),
+      rgba(28, 80, 135, 0.8)
+      ), url("images/people84x84.jpg");
+  border-radius: 100%;
+  margin-left: 88px;
+
+
+}
+.pinkflower {
+  height: 300px;
+  width: 278px;
+  display: inline-block;
+  background: linear-gradient(
+      rgba(28, 80, 135, 0.8),
+      rgba(28, 80, 135, 0.8)
+      ), url("images/pinkflower278x300.jpg");
+  background-repeat: no-repeat;
+
+}
+
+
+.pinkflower:hover {
+  background-image: url("images/pinkflower278x300.jpg");
+
+
+}
+
+.sidebar h3 {
+  margin-left: 104px;
+  position: relative;
+  left: -25px;
+}
+.sidebar h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(14, 110, 179);
+}
+.main-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: rgb(163, 178, 191);
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  left: -40px;
+  margin-bottom: 40px;
+}
+
+.sidebar a {
+  color: rgb(163, 178, 191);
+  float: right;
+}
+
+.sidebar a:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+
+/* semi footer */
+
+.semi-footer {
+  border-top: 1px solid #ddd;
+  color: rgb(7, 53, 81);
+  text-align: center;
+
+}
+.semi-footer h1 {
+  margin-bottom: 47px;
+  margin-top: 43px;
+  font-size: 57px;
+}
+
+
+.pictures > div h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(7, 53, 81);
+  letter-spacing: -1px;
+  font-weight: bold;
+  position: relative;
+  bottom: -230px;
+  left: 20px;
+}
+
+
+.pictures > div {
+  display: inline-block;
+  background: #fff no-repeat center center;
+  height: 325px;
+  width: 25%;
+  float: left;
+}
+
+.pictures:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.pictures > div:first-child {
+  background: linear-gradient(
+      rgba(28, 80, 135, 0.8),
+      rgba(28, 80, 135, 0.8)
+      ), url("images/city325x330.jpg");
+
+}
+
+#footer-image1:hover {
+    background-image: url("images/city325x330.jpg");
+}
+#footer-image1:hover h2 {
+  color: white;
+}
+
+
+
+.pictures > div:nth-child(2) {
+  background: linear-gradient(
+      rgba(28, 80, 135, 0.8),
+      rgba(28, 80, 135, 0.8)
+      ), url("images/sushi325x330.jpg");
+}
+
+#footer-image2:hover {
+  background-image: url("images/sushi325x330.jpg");
+}
+#footer-image2:hover h2 {
+  color: white;
+}
+
+.pictures > div:nth-child(3){
+  background: linear-gradient(
+      rgba(28, 80, 135, 0.8),
+      rgba(28, 80, 135, 0.8)
+      ), url("images/girls325x330.jpg");
+
+}
+
+#footer-image3:hover {
+  background-image: url("images/girls325x330.jpg");
+}
+#footer-image3:hover h2 {
+  color: white;
+}
+.pictures > div:nth-child(4) {
+  background: linear-gradient(
+      rgba(28, 80, 135, 0.8),
+      rgba(28, 80, 135, 0.8)
+      ), url("images/cow325x330.jpg");
+}
+
+#footer-image4:hover {
+  background-image: url("images/cow325x330.jpg");
+
+}
+#footer-image4:hover h2 {
+  color: white;
+}
+
+/* footer nav */
+
+ .footer-nav {
+  color: rgb(163, 178, 191);
+  height: 94px;
+  background-color: rgb(7, 53, 81);
+
+}
+.footer-left {
+  display: inline-block;
+}
+.footer-left h3 {
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  top: -3px;
+}
+.footer-left img {
+  padding-left: 135px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.footer-left span {
+  position: relative;
+  right: -318px;
+  font-size: 12px;
+  position: relative;
+  top: -3px;
+}
